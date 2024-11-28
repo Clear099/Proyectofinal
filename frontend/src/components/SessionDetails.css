@@ -1,0 +1,87 @@
+/* Container styling */
+.container-session-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .container-session-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .container-session-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .container-session-details th,
+  .container-session-details td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #000; /* Texto negro */
+  }
+  
+  /* Header row styling */
+  .container-session-details th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Row styling */
+  .row-even {
+    background-color: #f9f9f9;
+  }
+  
+  .row-odd {
+    background-color: #ffffff;
+  }
+  
+  /* Correct/Incorrect cell styling */
+  .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .button-primary {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Loading and error text styling */
+  .loading-text,
+  .error-text,
+  .no-data-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+  }
+  

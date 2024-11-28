@@ -1,0 +1,39 @@
+.container {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .student-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-stats-table th, .student-stats-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .student-stats-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .student-stats-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .student-stats-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
